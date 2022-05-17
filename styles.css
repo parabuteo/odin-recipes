@@ -1,15 +1,24 @@
 * {
    color: black;
    background-color: beige;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
     text-align:center;
-    font-family: Verdana, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(24, 127, 127);
     font-size: 36px;
 }
 
-img {
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
 
+ul {
+    display: table;
+    margin: 0 auto;
 }
